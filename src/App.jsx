@@ -14,6 +14,7 @@ import MakeAppoinment from "./components/MakeAppoinment";
 import ServicesPage from "./pages/ServicesPage";
 import FAQPage from "./pages/FAQPage";
 
+
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
   { path: "/interiorservices", element: <InteriorServicesPage /> },
@@ -27,7 +28,8 @@ const router = createBrowserRouter([
   { path: "/blog/:id", element: <BlogDetails /> },
   { path: "/MakeAppoinment", element: <MakeAppoinment /> },
   { path: "/services", element: <ServicesPage /> },
-  { path: "/faq", element: <FAQPage /> },
+  { path: "/faq", element: <FAQPage /> }
+ 
 ]);
 
 function App() {

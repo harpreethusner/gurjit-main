@@ -8,7 +8,7 @@ import OurGallery from "../components/OurGallery";
 import Footer from "../components/Footer";
 import Result from "../components/Result";
 import WhyChooseUs from "../components/WhyChooseUs";
-
+import WhyChoose from "../components/WhyChoose";
 
 
 const HomePage = () => {
@@ -20,7 +20,9 @@ const HomePage = () => {
       <VisionPage />
       <OurServices />
       <WhyChooseUs />
+     
       <OurGallery />
+       <WhyChoose />
       <Result />
       {/* <OurTeam /> */}
       {/* <Contact /> */}
